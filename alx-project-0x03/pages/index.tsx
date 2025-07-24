@@ -6,7 +6,7 @@
         }
 
         export default function Home() {
-          const router = useRouter() // <--- THIS EXACT LINE IS THE TARGET
+          const router = useRouter(); // Added semicolon here
 
           // Imperative routing with useRouter
           const routeToNextPage  = ({ pageRoute }: PageRouteProps) => {
@@ -33,4 +33,3 @@
             </div>
           );
         }
-        
