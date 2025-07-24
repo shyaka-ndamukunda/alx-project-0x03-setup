@@ -6,7 +6,7 @@
     }
 
     export default function Home() {
-      const router = useRouter()
+      const router = useRouter() // <--- THIS LINE IS CRUCIAL FOR THE CHECK
 
       // Imperative routing with useRouter
       const routeToNextPage  = ({ pageRoute }: PageRouteProps) => {
